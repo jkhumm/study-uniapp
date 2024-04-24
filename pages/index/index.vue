@@ -9,6 +9,10 @@
 		<p>{{1==1 ? 'yes' : 'no'}}三元</p>
 		{{ "vue".split('').reverse().join('') }}
 		<p v-if="isCanSee">你现在看到我了</p>
+		
+		<h1 v-if="awesome">Vue is awesome!</h1>
+
+		
 	</view>
 </template>
 
@@ -46,7 +50,8 @@
 			return {
 				title: 'Hello uniapp',
 				youColor: 'divColorClass',
-				isCanSee: true
+				isCanSee: true,
+				awesome: true
 			}
 		},
 		methods: {
