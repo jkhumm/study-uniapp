@@ -8,9 +8,10 @@
 		<div v-bind:class="youColor">颜色</div>
 		<p>{{1==1 ? 'yes' : 'no'}}三元</p>
 		{{ "vue".split('').reverse().join('') }}
-		<p v-if="isCanSee">你现在看到我了</p>
-		
 		<h1 v-if="awesome">Vue is awesome!</h1>
+		<h1 v-else>Oh no 😢</h1>
+		
+		<h1 v-show="ok">Hello!</h1>
 
 		
 	</view>
@@ -50,8 +51,7 @@
 			return {
 				title: 'Hello uniapp',
 				youColor: 'divColorClass',
-				isCanSee: true,
-				awesome: true
+				awesome: false
 			}
 		},
 		methods: {
