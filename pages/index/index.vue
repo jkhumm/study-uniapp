@@ -19,6 +19,8 @@
 
 
 		<uni-data-select v-model="selectValue" :localdata="range" @change="change">请选择</uni-data-select>
+		
+		<uni-load-more status="more" contentText="1111"></uni-load-more>
 
 
 
