@@ -5,6 +5,13 @@
 			"style": {
 				"navigationBarTitleText": "我的第一个uniapp"
 			}
+		},
+		{
+			"path": "pages/index/demo1/demo1",
+			"style": {
+				"navigationBarTitleText": "我的第一个页面",
+				"enablePullDownRefresh": false
+			}
 		}
 	],
 	"globalStyle": {

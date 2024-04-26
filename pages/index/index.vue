@@ -19,8 +19,8 @@
 
 
 		<uni-data-select v-model="selectValue" :localdata="range" @change="change">请选择</uni-data-select>
-		
-		<uni-load-more status="more" contentText="1111"></uni-load-more>
+
+		<uni-load-more status="noMore" :content-text="contentTextStr"></uni-load-more>
 
 
 
@@ -81,7 +81,11 @@
 						text: "游泳"
 					},
 				],
-
+				contentTextStr: {
+					contentdown: '自定义-查看更多',
+					contentrefresh: '自定义-加载中',
+					contentnomore: '自定义-没有更多'
+				}
 
 
 			}
