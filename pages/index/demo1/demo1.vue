@@ -35,12 +35,34 @@
 		<a href="https://www.baidu.com">
 			<image src="../../../static/msk.jpg"></image>
 		</a>
-		<!-- </navigator> -->
 
 
-		<button size="mini">按钮</button>
+<!-- 		<button size="mini">按钮</button>
 		<button size="default" plain="true" disabled>按钮</button>
-		<input type="number" placeholder="请输入" placeholder-style="color:red" />
+		<input type="number" placeholder="请输入密码" password />
+		<input type="tel" placeholder="请输入手机号" maxlength="11" placeholder-style="color:red" />
+		<input type="tetxtl" placeholder="搜索"  placeholder-style="color:red" confirm-type="search" />
+		 -->
+		 
+		 <input type="text" placeholder="填写内容" placeholder-style="color:red" 
+		 @focus="fouc()" @confirm="confirm()" />
+		 
+		 
+		 
+		 
+		<view style="width: 100px; height: 50px; background-color: red;">111</view>
+		<!-- 属性不允许出现-  要不就把它驼峰命名 -->
+		<view :style="{
+			width: '100px',
+			height: '50px',
+			backgroundColor: 'green',
+			fontSize: fontValue + 'px'
+		 }" 
+		 v-on:click="func"
+		 >222</view>
+		 
+		<switch checked="true" @change="change()" />
+		 
 	</view>
 
 
@@ -51,11 +73,22 @@
 	export default {
 		data() {
 			return {
-
+				fontValue: 30
 			}
 		},
 		methods: {
-
+			func(){
+				alert('func')
+			},
+			change(){
+				console.log('change')
+			},
+			fouc() {
+				console.log('fouc')
+			},
+			confirm() {
+				console.log('confirm')
+			}
 		}
 	}
 </script>
