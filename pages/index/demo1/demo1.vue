@@ -1,24 +1,50 @@
 <template>
 	<view>
 		<!-- vertical="true" 纵向滚动 -->
-		<swiper :indicator-dots="true" indicator-color="yellow" indicator-active-color="white" circular="true">
+		<swiper :indicator-dots="true" indicator-color="yellow" indicator-active-color="white" interval="3000"
+			autoplay="true" duration="3000" circular="true" class="itemC">
+
 			<swiper-item>
-				<view class="itemC">1111</view>
+				<image src="https://www.xfh2022.com/api/admin/file/download?id=22" mode="aspectFill" class="pic1"></image>
 			</swiper-item>
+
 			<swiper-item>
-				<view class="itemC">2222</view>
+				<image src="https://www.xfh2022.com/api/admin/file/download?id=23" mode="aspectFill" class="pic1"></image>
 			</swiper-item>
+
 			<swiper-item>
-				<view class="itemC">3333</view>
+				<image src="https://www.xfh2022.com/api/admin/file/download?id=24" mode="aspectFill" class="pic1"></image>
 			</swiper-item>
+
 			<swiper-item>
-				<view class="itemC">4444</view>
+				<image src="https://www.xfh2022.com/api/admin/file/download?id=26" mode="heightFix" class="pic1"></image>
 			</swiper-item>
+
 		</swiper>
 	</view>
 
-	<image src="../../../static/logo.png" class="pic1" mode=""></image>
-	<image src="../../../static/msk.jpg" class="pic2" mode="aspectFill"></image>
+
+
+	<view class="">
+		<!-- 保留当前页面，跳转到应用内的某个页面 -->
+		<navigator url="/pages/index/index" open-type="navigateBack"> <text selectable="true">跳转到index</text></navigator>
+		<!-- 返回箭头没了 -->
+		<navigator url="/pages/index/index" open-type="reLaunch">reLaunch</navigator>
+
+		<!-- 		<navigator url="/pages/index/index"> -->
+		<a href="https://www.baidu.com">
+			<image src="../../../static/msk.jpg"></image>
+		</a>
+		<!-- </navigator> -->
+
+
+		<button size="mini">按钮</button>
+		<button size="default" plain="true" disabled>按钮</button>
+		<input type="number" placeholder="请输入" placeholder-style="color:red" />
+	</view>
+
+
+
 </template>
 
 <script>
@@ -44,12 +70,7 @@
 	}
 
 	.pic1 {
-		width: 150px;
-		height: 150px;
-	}
-
-	.pic2 {
-		width: 250px;
-		height: 150px;
+		width: 100%;
+		height: 100%;
 	}
 </style>

@@ -21,7 +21,7 @@
 		<uni-data-select v-model="selectValue" :localdata="range" @change="change">请选择</uni-data-select>
 
 		<uni-load-more status="noMore" :content-text="contentTextStr"></uni-load-more>
-
+		<navigator url="/pages/index/demo1/demo1">跳转到demo1</navigator>
 
 
 	</view>
