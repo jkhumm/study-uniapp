@@ -12,6 +12,31 @@
 				"navigationBarTitleText": "我的第一个页面",
 				"enablePullDownRefresh": false
 			}
+		},
+		{
+			"path": "pages/index/demo2/re_geng",
+			"style": {
+				"navigationBarTitleText": "热梗页面"
+			}
+		},
+		{
+			"path": "pages/index/demo2/computed_demo",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/index/demo2/shop_demo",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path" : "pages/index/demo2/watch_demo",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
 		}
 	],
 	"globalStyle": {
