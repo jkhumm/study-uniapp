@@ -4,12 +4,12 @@
 	</view>
 	{{person}}
 
-
 	<view>
 		<UserInfo v-for="(item,index) in userInfoObj" :obj="item" :key="item.xingming"></UserInfo>
 
 
 	</view>
+
 
 </template>
 
