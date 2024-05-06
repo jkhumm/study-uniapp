@@ -32,10 +32,21 @@
 			}
 		},
 		{
-			"path" : "pages/index/demo2/watch_demo",
-			"style" : 
-			{
-				"navigationBarTitleText" : ""
+			"path": "pages/index/demo2/watch_demo",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/index/demo3/lay_demo1",
+			"style": {
+				"navigationBarTitleText": "lay_demo1"
+			}
+		},
+		{
+			"path": "pages/index/demo3/lay_demo2",
+			"style": {
+				"navigationBarTitleText": "lay_demo2"
 			}
 		}
 	],
