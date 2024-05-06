@@ -1,9 +1,15 @@
 <template>
 	<view>
 		<input type="text" v-model="person.name" />
-
 	</view>
 	{{person}}
+	
+	<view>
+		<UserInfo xingming="胡三刀" touxiang="https://www.xfh2022.com/api/admin/file/download?id=26"></UserInfo>
+		<UserInfo xingming="胡三刀" touxiang="https://www.xfh2022.com/api/admin/file/download?id=24"></UserInfo>
+		<UserInfo :xingming=person.name touxiang="https://www.xfh2022.com/api/admin/file/download?id=25"></UserInfo>
+	</view>
+	
 </template>
 
 <script setup>
