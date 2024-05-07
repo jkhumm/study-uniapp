@@ -48,6 +48,14 @@
 			"style": {
 				"navigationBarTitleText": "lay_demo2"
 			}
+		},
+		{
+			"path" : "pages/index/demo3/child_demo/child_demo",
+			"style" : 
+			{
+				"navigationBarTitleText" : "子组件事件",
+				"enablePullDownRefresh" : false
+			}
 		}
 	],
 	"globalStyle": {
