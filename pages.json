@@ -56,6 +56,20 @@
 				"navigationBarTitleText" : "子组件事件",
 				"enablePullDownRefresh" : false
 			}
+		},
+		{
+			"path" : "pages/index/demo3/life_demo/life_demo",
+			"style" : 
+			{
+				"navigationBarTitleText" : "life_demo"
+			}
+		},
+		{
+			"path" : "pages/index/demo3/expose_demo/expose_demo",
+			"style" : 
+			{
+				"navigationBarTitleText" : "expose_demo"
+			}
 		}
 	],
 	"globalStyle": {
