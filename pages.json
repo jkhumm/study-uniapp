@@ -70,6 +70,14 @@
 			{
 				"navigationBarTitleText" : "expose_demo"
 			}
+		},
+		{
+			"path" : "pages/index/demo4/demo4",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false
+			}
 		}
 	],
 	"globalStyle": {
