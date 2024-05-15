@@ -30,6 +30,7 @@ import { ref } from "vue";
 	})
 	
 	onReady(()=>{
+
 		// dom没渲染在onLoad不会打印  只有onReady可以拿到dom节点
 		//console.log(sc.value)
 		console.log("onReady")
