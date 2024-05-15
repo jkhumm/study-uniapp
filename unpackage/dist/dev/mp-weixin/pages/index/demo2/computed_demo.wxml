@@ -1,0 +1,1 @@
+<view class="out data-v-946e999a"><input class="data-v-946e999a" type="text" placeholder="请输入名" value="{{a}}" bindinput="{{b}}"/><input class="data-v-946e999a" type="text" placeholder="请输入姓氏" value="{{c}}" bindinput="{{d}}"/><view class="data-v-946e999a">全称：{{e}}</view></view>

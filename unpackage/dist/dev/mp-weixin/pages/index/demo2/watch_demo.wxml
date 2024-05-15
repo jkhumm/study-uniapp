@@ -1,0 +1,1 @@
+<view><input type="text" value="{{a}}" bindinput="{{b}}"/></view> {{c}} <view><user-info wx:for="{{d}}" wx:for-item="item" wx:key="a" u-i="{{item.b}}" bind:__l="__l" u-p="{{item.c}}"></user-info></view>

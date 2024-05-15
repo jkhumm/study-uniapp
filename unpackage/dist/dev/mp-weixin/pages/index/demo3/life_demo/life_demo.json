@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "life_demo",
+  "usingComponents": {
+    "life-components": "../../../../components/life-components/life-components"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "expose_demo",
+  "usingComponents": {
+    "demo-child": "../../../../components/demo-child/demo-child"
+  }
+}

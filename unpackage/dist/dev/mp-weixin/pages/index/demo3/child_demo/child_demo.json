@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "子组件事件",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "xxm-child": "../../../../components/xxm-child/xxm-child"
+  }
+}

@@ -1,0 +1,1 @@
+<view> 姓名：{{a}} 年龄：{{b}}</view><scroll-view scroll-y="true" ref="sc"><view></view></scroll-view><navigator url="/pages/index/demo1/demo1">跳转到demo1</navigator>

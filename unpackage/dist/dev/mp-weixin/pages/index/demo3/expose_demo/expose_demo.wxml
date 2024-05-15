@@ -1,0 +1,1 @@
+<view class="layout"><demo-child class="r" u-r="child" u-i="341e1130-0" bind:__l="__l"></demo-child><view>-----------</view><button bindtap="{{b}}">点击修改子元素</button></view>

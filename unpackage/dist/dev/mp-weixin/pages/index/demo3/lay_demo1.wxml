@@ -1,0 +1,1 @@
+<view><lay-out u-s="{{['header','main']}}" u-i="0e2fbb8e-0" bind:__l="__l"><view slot="header">header内容</view><view slot="main">中间内容</view></lay-out></view>

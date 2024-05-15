@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "lay_demo1",
+  "usingComponents": {
+    "lay-out": "../../../components/lay-out/lay-out"
+  }
+}

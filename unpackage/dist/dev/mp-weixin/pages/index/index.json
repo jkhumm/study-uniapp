@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "我的第一个uniapp",
+  "navigationBarBackgroundColor": "#007aff",
+  "navigationBarTextStyle": "white",
+  "enablePullDownRefresh": true,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "uni-data-select": "../../uni_modules/uni-data-select/components/uni-data-select/uni-data-select",
+    "uni-load-more": "../../uni_modules/uni-load-more/components/uni-load-more/uni-load-more"
+  }
+}

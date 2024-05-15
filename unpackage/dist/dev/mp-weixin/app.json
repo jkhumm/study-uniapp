@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/demo1/demo1",
+    "pages/index/demo2/re_geng",
+    "pages/index/demo2/computed_demo",
+    "pages/index/demo2/shop_demo",
+    "pages/index/demo2/watch_demo",
+    "pages/index/demo3/lay_demo1",
+    "pages/index/demo3/lay_demo2",
+    "pages/index/demo3/child_demo/child_demo",
+    "pages/index/demo3/life_demo/life_demo",
+    "pages/index/demo3/expose_demo/expose_demo",
+    "pages/index/demo4/demo4",
+    "pages/index/demo5/demo5"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "onReachBottomDistance": 250
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#FE1C32",
+    "backgroundColor": "#f7f7f7",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "index",
+        "iconPath": "./static/bar/home_no_select.png",
+        "selectedIconPath": "static/bar/home_yes_select.png"
+      },
+      {
+        "pagePath": "pages/index/demo4/demo4",
+        "text": "分类",
+        "iconPath": "./static/bar/clify_no_select.png",
+        "selectedIconPath": "static/bar/clify_yes_select.png"
+      },
+      {
+        "pagePath": "pages/index/demo5/demo5",
+        "text": "我的",
+        "iconPath": "./static/bar/mine_no_select.png",
+        "selectedIconPath": "static/bar/mine_yes_select.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

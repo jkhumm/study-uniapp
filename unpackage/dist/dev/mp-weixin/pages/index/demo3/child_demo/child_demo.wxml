@@ -1,0 +1,1 @@
+<view><xxm-child bindcustomerColor="{{a}}" bindcustomerChange="{{b}}" u-i="2506166a-0" bind:__l="__l"></xxm-child><view class="box" style="{{'background:' + c}}"></view></view>
