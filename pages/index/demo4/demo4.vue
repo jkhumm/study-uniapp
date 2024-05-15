@@ -21,23 +21,9 @@
 	</view>
 
 
-
-
 </template>
 
 <script setup>
-	import {
-		onLoad,
-		onReady,
-		onShow,
-		onHide,
-		onUnload,
-		onPageScroll
-	} from "@dcloudio/uni-app"
-	import {
-		ref
-	} from "vue";
-
 	let stu = ref({
 		name: "aa",
 		age: 0
