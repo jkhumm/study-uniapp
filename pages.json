@@ -113,6 +113,20 @@
 				"navigationBarTitleText" : "demo6_3",
 				"enablePullDownRefresh" : false
 			}
+		},
+		{
+			"path" : "pages/index/demo7/demo7",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/index/demo7/demo7_request",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
 		}
 	],
 	"tabBar": {
