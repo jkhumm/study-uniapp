@@ -11,16 +11,13 @@
 		<h1 v-if="awesome">Vue is awesome!</h1>
 		<h1 v-else>Oh no 😢</h1>
 
-
-
-
-
-
 		<uni-data-select v-model="selectValue" :localdata="range" @change="change">请选择</uni-data-select>
 
 		<uni-load-more status="noMore" :content-text="contentTextStr"></uni-load-more>
 		<navigator url="/pages/index/demo1/demo1">跳转到demo1</navigator>
 		<navigator open-type="reLaunch" url="/pages/index/demo4/demo4?name=jack&age=12">跳转到demo4</navigator>
+		
+		<button @click="stopDownPullRefresh">停止下拉刷新</button>
 
 	</view>
 
@@ -105,6 +102,9 @@
 			change(e) {
 				alert(e)
 			},
+			stopDownPullRefresh(){
+				uni.stopPullDownRefresh()
+			}
 		}
 	}
 </script>

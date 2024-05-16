@@ -97,6 +97,22 @@
 			"style": {
 				"navigationBarTitleText": ""
 			}
+		},
+		{
+			"path" : "pages/index/demo6/demo6_2",
+			"style" : 
+			{
+				"navigationBarTitleText" : "demo6_2",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/index/demo6/demo6_3",
+			"style" : 
+			{
+				"navigationBarTitleText" : "demo6_3",
+				"enablePullDownRefresh" : false
+			}
 		}
 	],
 	"tabBar": {
