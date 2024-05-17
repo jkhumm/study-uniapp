@@ -2,6 +2,8 @@
 
 	<button size="mini" @click="sendRequrst">sendRequrst</button>
 	<button size="mini" @click="sendRequrst2">sendRequrst2</button>
+	<button size="mini" @click="sendRequrst3">sendRequrst3</button>
+	<button size="mini" @click="sendPostRequrst">sendPostRequrst</button>
 	<view class="layout">
 		<view class="row" v-for="item in arrays" :key="item.id">
 
@@ -47,6 +49,29 @@
 		})
 		arrays.value = res.data
 	}
+	
+	async function sendRequrst3() {
+		uni.showLoading({
+			title:"发送中"
+		})
+		let res = await uni.request({
+			url: "https://jsonplaceholder.typicode.com/posts",
+			method:"GET",
+			data:{
+				id:5
+			},
+			header:{
+				"token":"xxxx",
+				"Content-Type":"application/json"
+			},
+			timeout: 5000,
+			complete() {
+				uni.hideLoading()
+			}
+		})
+		arrays.value = res.data
+	}
+	
 </script>
 
 <style scoped lang="scss">
