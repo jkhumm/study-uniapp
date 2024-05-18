@@ -16,7 +16,8 @@
 		<uni-load-more status="noMore" :content-text="contentTextStr"></uni-load-more>
 		<navigator url="/pages/index/demo1/demo1">跳转到demo1</navigator>
 		<navigator open-type="reLaunch" url="/pages/index/demo4/demo4?name=jack&age=12">跳转到demo4</navigator>
-		
+		<navigator open-type="reLaunch" url="/pages/index/request/request">跳转到request</navigator>
+
 		<button @click="stopDownPullRefresh">停止下拉刷新</button>
 
 	</view>
@@ -102,7 +103,7 @@
 			change(e) {
 				alert(e)
 			},
-			stopDownPullRefresh(){
+			stopDownPullRefresh() {
 				uni.stopPullDownRefresh()
 			}
 		}
