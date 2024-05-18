@@ -99,33 +99,36 @@
 			}
 		},
 		{
-			"path" : "pages/index/demo6/demo6_2",
-			"style" : 
-			{
-				"navigationBarTitleText" : "demo6_2",
-				"enablePullDownRefresh" : false
+			"path": "pages/index/demo6/demo6_2",
+			"style": {
+				"navigationBarTitleText": "demo6_2",
+				"enablePullDownRefresh": false
 			}
 		},
 		{
-			"path" : "pages/index/demo6/demo6_3",
-			"style" : 
-			{
-				"navigationBarTitleText" : "demo6_3",
-				"enablePullDownRefresh" : false
+			"path": "pages/index/demo6/demo6_3",
+			"style": {
+				"navigationBarTitleText": "demo6_3",
+				"enablePullDownRefresh": false
 			}
 		},
 		{
-			"path" : "pages/index/demo7/demo7",
-			"style" : 
-			{
-				"navigationBarTitleText" : ""
+			"path": "pages/index/demo7/demo7",
+			"style": {
+				"navigationBarTitleText": ""
 			}
 		},
 		{
-			"path" : "pages/index/demo7/demo7_request",
-			"style" : 
-			{
-				"navigationBarTitleText" : ""
+			"path": "pages/index/demo7/demo7_request",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/index/request/request",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": true
 			}
 		}
 	],
