@@ -130,6 +130,14 @@
 				"navigationBarTitleText": "",
 				"enablePullDownRefresh": true
 			}
+		},
+		{
+			"path" : "pages/index/request/computed_demo",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false
+			}
 		}
 	],
 	"tabBar": {
