@@ -8,6 +8,10 @@
 </template>
 
 <script setup>
+	import {
+		computed,
+		ref
+	} from 'vue';
 	const goods = ref([{
 			id: "11",
 			name: "小米",
@@ -134,6 +138,51 @@
 		})
 		console.log("平均值" + avg)
 	}
+
+
+	// every(对数组操作) 返回布尔值，只有当所有元素都满足条件，返回true，当有一个元素满足条件就返回true，否则返回false
+	goods.value.every(item => {
+		return item.price > 2000; // 返回false，因为有一个价格小于2000
+	})
+
+	// 可以用来做表单验证是否为空
+	const formObj = new ref({
+		name: 'jack',
+		age: "30",
+		birteh: "1993"
+	})
+
+	const state = computed(() => {
+		if (formObj.value.name && formObj.value.age && formObj.value.birteh) {
+			return true;
+		}
+		return false;
+	})
+	//console.log(state.value)
+
+
+	console.log(Object.values(formObj.value).every(item => {
+		if (item) {
+			return true;
+		} else {
+			return false;
+		}
+	}))
+	console.log(Object.values(formObj.value).every(item => item))
+
+	// some 返回布尔值，当有一个元素满足条件就返回true，否则返回false，和every相反
+	goods.value.some(item => item.price > 4000) // 返回true，因为有一个价格大于4000
+
+	// include 返回布尔值，判断数组是否包含指定元素，返回true，否则返回false，和indexOf相反	
+	goods.value.includes(1) // 返回true，因为数组包含1，否则返回false
+
+	const array1 = [1, 2]
+	const array2 = [...array1, 3, 4]
+	console.log(array2)
+	// 检查数组1是否包含在数组2中
+	console.log(array1.every(item => {
+		return array2.includes(item)
+	}))
 </script>
 
 

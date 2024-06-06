@@ -135,51 +135,45 @@
 			"path": "pages/index/request/computed_demo",
 			"style": {
 				"navigationBarTitleText": "",
-				"enablePullDownRefresh": false
-			},
-			{
-				"path": "pages/index/request/computed_demo",
-				"style": {
-					"navigationBarTitleText": "",
-					"enablePullDownRefresh": true
-				}
+				"enablePullDownRefresh": true
 			}
-		],
-		"tabBar": {
-			"color": "#999",
-			"selectedColor": "#FE1C32", // tab 上的文字选中时的颜色	
-			"backgroundColor": "#f7f7f7", // tab 的背景色	
-			// "borderStyle": "black", // tabbar 上边框的颜色，可选值 black/white，也支持其他颜色值	
-			"list": [{
-				"pagePath": "pages/index/index",
-				"text": "index",
-				"iconPath": "./static/bar/home_no_select.png",
-				"selectedIconPath": "static/bar/home_yes_select.png"
-			}, {
-				"pagePath": "pages/index/demo4/demo4",
-				"text": "分类",
-				"iconPath": "./static/bar/clify_no_select.png",
-				"selectedIconPath": "static/bar/clify_yes_select.png"
-			}, {
-				"pagePath": "pages/index/demo6/demo6_1",
-				"text": "demo6_1",
-				"iconPath": "./static/bar/clify_no_select.png",
-				"selectedIconPath": "static/bar/clify_yes_select.png"
-			}, {
-				"pagePath": "pages/index/demo5/demo5",
-				"text": "我的",
-				"iconPath": "./static/bar/mine_no_select.png",
-				"selectedIconPath": "static/bar/mine_yes_select.png"
-			}]
-		},
-		"globalStyle": {
-			"navigationBarTextStyle": "black",
-			"navigationBarTitleText": "uni-app",
-			"navigationBarBackgroundColor": "#F8F8F8",
-			//"navigationStyle": "custom", // 取消默认原生的导航栏
-			"backgroundColor": "#F8F8F8",
-			//"enablePullDownRefresh": true // 下拉刷新 上面backgroundColor可以提现
-			"onReachBottomDistance": 250
-		},
-		"uniIdRouter": {}
-	}
+		}
+	],
+	"tabBar": {
+		"color": "#999",
+		"selectedColor": "#FE1C32", // tab 上的文字选中时的颜色	
+		"backgroundColor": "#f7f7f7", // tab 的背景色	
+		// "borderStyle": "black", // tabbar 上边框的颜色，可选值 black/white，也支持其他颜色值	
+		"list": [{
+			"pagePath": "pages/index/index",
+			"text": "index",
+			"iconPath": "./static/bar/home_no_select.png",
+			"selectedIconPath": "static/bar/home_yes_select.png"
+		}, {
+			"pagePath": "pages/index/demo4/demo4",
+			"text": "分类",
+			"iconPath": "./static/bar/clify_no_select.png",
+			"selectedIconPath": "static/bar/clify_yes_select.png"
+		}, {
+			"pagePath": "pages/index/demo6/demo6_1",
+			"text": "demo6_1",
+			"iconPath": "./static/bar/clify_no_select.png",
+			"selectedIconPath": "static/bar/clify_yes_select.png"
+		}, {
+			"pagePath": "pages/index/demo5/demo5",
+			"text": "我的",
+			"iconPath": "./static/bar/mine_no_select.png",
+			"selectedIconPath": "static/bar/mine_yes_select.png"
+		}]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		//"navigationStyle": "custom", // 取消默认原生的导航栏
+		"backgroundColor": "#F8F8F8",
+		//"enablePullDownRefresh": true // 下拉刷新 上面backgroundColor可以提现
+		"onReachBottomDistance": 250
+	},
+	"uniIdRouter": {}
+}
